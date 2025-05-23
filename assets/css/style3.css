@@ -95,9 +95,16 @@
  
 }
 
-
+.table-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* spacing between the two tables */
+  margin-bottom: 30px; /* spacing between rows */
+  justify-content: center;
+}
  .container9 {
-    max-width: 800px;
+   flex: 1 1 45%;
+    max-width: 600px;
     margin: 20px;
     padding: 20px 15px;
     background-color: transparent;

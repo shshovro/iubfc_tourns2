@@ -43,12 +43,34 @@
 
       <nav id="navmenu" class="navmenu">
   <ul>
+
     <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="player.html">Teams</a></li>
-    <li><a href="team.html">Players</a></li>
+    <li class="dropdown"><a href=""><span>Teams</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="m_team.html">Male </a></li>
+              <li><a href="f_team.html">Female</a></li>
+            </ul>
+    </li>
+    <li class="dropdown"><a href=""><span>Players</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="m_players.html">Male </a></li>
+              <li><a href="f_players.html">Female</a></li>
+            </ul>
+    </li>
     <li><a href="groups.html">Groups</a></li>
-   <li><a href="fixture.html">Fixtures</a></li>
-    <li><a href="results.html"> Match Results</a></li>
+    <li class="dropdown"><a href=""><span>Fixtures</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="m_fixture_page.html">Male </a></li>
+              <li><a href="female_fixture_page.html">Female</a></li>
+            </ul>
+    </li>
+   <li class="dropdown"><a href=""><span>Match Results</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="male_results.html">Male </a></li>
+              <li><a href="female_results.html">Female</a></li>
+            </ul>
+    </li>
+    <li><a href="gallery.html"> Gallery</a></li>
     
     
   </ul>
@@ -195,20 +217,19 @@
    <div aria-label="" class="team2">
      <img alt="" height="70" src="assets/img/green.jpg" width="70"/>
     <div class="team-name">
-     Dept. of CSE
+     -
     </div>
    
-
    </div>
    <div aria-atomic="true" aria-live="polite" class="score-section">
     <div class="league-round">
      IIDFF - GROUP STAGE
     </div>
     <div aria-label="" class="score-box">
-     3:2
+     0:0
     </div>
     <div class="date-time">
-     10 SEP / 7:30 AM, MATCH 10
+     22 JUN / 10:00 AM, MATCH 1
     </div>
     <div class="duration">
      Final
@@ -217,7 +238,7 @@
    <div aria-label="" class="team2">
      <img alt="" height="70" src="assets/img/blue.jpg" width="70"/>
     <div class="team-name">
-     Dept. of Law
+     -
     </div>
     <!-- <div class="team-location">
      London
@@ -245,40 +266,46 @@
 
     <!-- Date Selector -->
     <nav class="date-selector" role="navigation" aria-label="Select match date" data-aos="fade-up">
-      <a href="page-12-may.html" class="date-item" data-url="page-12-may.html" data-aos="fade-up">
-        <div class="day-name">Mon</div>
-        <div class="day-number">12</div>
-        <div class="month-name">May</div>
-      </a>
-      <a href="page-13-may.html" class="date-item" data-url="page-13-may.html" data-aos="fade-up">
-        <div class="day-name">Tue</div>
-        <div class="day-number">13</div>
-        <div class="month-name">May</div>
-      </a>
-      <a href="page-14-may.html" class="date-item" data-url="page-14-may.html"data-aos="fade-up">
-        <div class="day-name">Wed</div>
-        <div class="day-number">14</div>
-        <div class="month-name">May</div>
-      </a>
-      <a href="page-15-may.html" class="date-item" data-url="page-15-may.html" data-aos="fade-up">
-        <div class="day-name">Thu</div>
-        <div class="day-number">15</div>
-        <div class="month-name">May</div>
-      </a>
-      <a href="page-16-may.html" class="date-item" data-url="page-16-may.html" data-aos="fade-up">
-        <div class="day-name">Fri</div>
-        <div class="day-number">16</div>
-        <div class="month-name">May</div>
-      </a>
-      <a href="page-17-may.html" class="date-item" data-url="page-17-may.html" data-aos="fade-up">
+       <a href="male_22 june fixture.html" class="date-item active" data-url="male_22 june fixture.html">
         <div class="day-name">Sat</div>
-        <div class="day-number">17</div>
-        <div class="month-name">May</div>
+        <div class="day-number">22</div>
+        <div class="month-name">June</div>
       </a>
-      <a href="page-15-may.html" class="date-item active" data-url="page-15-may.html"data-aos="fade-up" >
-        <div class="day-name">Today</div>
-        <div class="day-number">18</div>
-        <div class="month-name">May</div>
+
+      <a href="page-13-may.html" class="date-item" data-url="page-13-may.html">
+        <div class="day-name">Sun</div>
+        <div class="day-number">23</div>
+        <div class="month-name">June</div>
+      </a>
+      <a href="page-14-may.html" class="date-item" data-url="page-14-may.html">
+         <div class="day-name">Mon</div>
+        <div class="day-number">24</div>
+        <div class="month-name">June</div>
+      </a>
+      <a href="page-15-may.html" class="date-item" data-url="page-15-may.html">
+         <div class="day-name">Tue</div>
+        <div class="day-number">25</div>
+        <div class="month-name">June</div>
+      </a>
+      <a href="page-16-may.html" class="date-item" data-url="page-16-may.html">
+        <div class="day-name">Wed</div>
+        <div class="day-number">26</div>
+        <div class="month-name">June</div>
+      </a>
+      <a href="page-17-may.html" class="date-item" data-url="page-17-may.html">
+          <div class="day-name">Thu</div>
+        <div class="day-number">27</div>
+        <div class="month-name">June</div>
+      </a>
+      <a href="page-15-may.html" class="date-item" data-url="page-15-may.html">
+        <div class="day-name">Fri</div>
+        <div class="day-number">28</div>
+        <div class="month-name">June</div>
+      </a>
+       <a href="/fixtures/day1.html" class="date-item" data-url="/fixtures/day1.html">
+        <div class="day-name">Sat</div>
+        <div class="day-number">29</div>
+        <div class="month-name">June</div>
       </a>
     </nav>
 
@@ -536,13 +563,13 @@
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Contact Us</h4>
-<p>Reach out to us for inquiries, support, or to learn more about our products and services. We're here to help!</p>
+<p>Have questions about the tournament, team registration, or sponsorship opportunities? We're here to help!Reach out to us for inquiries, support, or to learn more about the upcoming fixtures, rules, and event details.</p>
 
           <form action="forms/newsletter.php" method="post" class="php-email-form">
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Submit"></div>
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
           </form>
         </div>
 
@@ -667,8 +694,7 @@
 
 
 
-
-  <script>
+<script>
   const toggleBtn = document.getElementById('mobile-nav-toggle');
   const nav = document.getElementById('navmenu');
 
@@ -679,14 +705,15 @@
   });
 
   // Dropdown toggles
-  document.querySelectorAll('.navmenu .dropdown > a').forEach(link => {
+  document.querySelectorAll('.navmenu .dropdown > a, .navmenu .dropdown > i').forEach(link => {
     link.addEventListener('click', e => {
-      e.preventDefault();
+      e.preventDefault(); // Prevent empty href="" from causing page reload
       const parent = link.parentElement;
       parent.classList.toggle('open');
     });
   });
 </script>
+
 
 <script>  
 document.addEventListener("DOMContentLoaded", function () {
