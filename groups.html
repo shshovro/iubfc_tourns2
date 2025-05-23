@@ -30,7 +30,100 @@
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/style2.css" rel="stylesheet">
    <link href="assets/css/style3.css" rel="stylesheet">
+<style> 
 
+  .knocktable {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 400px;
+  }
+  
+  .table2 {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .table2 td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    font-size: 18px;
+    align-items: center;
+  }
+
+   .table3 {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 20px;
+  }
+  .table3 td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+
+  .table4 {
+     margin-top: 40px;
+    background: linear-gradient(135deg,#f4c542, #d18522);
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 20px;
+  }
+  .table4 td {
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #e39c3e;
+  }
+  @media (max-width: 767px) {
+  .knocktable,
+  .table2 {
+  
+    display: block;
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    align-items: center;
+  }
+ .table3{
+  
+margin-left: 5px;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 290px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+ }
+ .table4{
+  margin-top: 40px;
+  border: none;
+  margin-left: 5px;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 290px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    background: linear-gradient(135deg,#f4c542, #d18522);
+ }
+
+
+ .knocktable h3{
+  margin-left: 60px;
+ }
+  .table2 td,
+  .table3 td {
+    font-size: 16px;
+    padding: 5px;
+  
+  }
+}
+
+</style>
 </head>
 <body class="index-page">
 
@@ -298,6 +391,65 @@
 </div> 
 
 
+ <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Cup & Plate Segment</h2>
+        <p>Knockout Rounds</p>
+      </div><!-- End Section Title -->
+
+
+
+ <div class="knocktable">
+  <h3>Round of 16 (Cup)</h3>
+  <table class="table2">
+    <tr><td>1. Group A Champion vs Group B Runners up</td></tr>
+    <tr><td>2. Group B Champion vs Group A Runners up</td></tr>
+    <tr><td>3. Group C Champion vs Group D Runners up</td></tr>
+    <tr><td>4. Group D Champion vs Group C Runners up</td></tr>
+    <tr><td>5. Group E Champion vs Group F Runners up</td></tr>
+    <tr><td>6. Group F Champion vs Group E Runners up</td></tr>
+    <tr><td>7. Group G Champion vs Group H Runners up</td></tr>
+    <tr><td>8. Group H Champion vs Group G Runners up</td></tr>
+  </table>
+
+  <h3>Quarter-Finals (Cup)</h3>
+  <table class="table3">
+    <tr><td>1. Match 1 winner vs Match 3 winner</td></tr>
+    <tr><td>2. Match 2 winner vs Match 4 winner</td></tr>
+    <tr><td>3. Match 5 winner vs Match 7 winner</td></tr>
+    <tr><td>4. Match 6 winner vs Match 8 winner</td></tr>
+  </table>
+
+   <h3>Semi-Finals (Cup) </h3>
+  <table class="table3">
+    <tr><td>1. Team 1 vs Team 2 </td></tr>
+    <tr><td>2.  Team 3 vs Team 4 </td></tr>
+  </table>
+
+
+  <h3>Quarter-Finals (Plate) </h3>
+  <table class="table2">
+    <tr><td>1. Group A 3rd Place vs Group B 3rd Place  </td></tr>
+    <tr><td>2. Group C 3rd Place vs Group D 3rd Place </td></tr>
+    <tr><td>3. Group E 3rd Place vs Group F 3rd Place</td></tr>
+    <tr><td>4. Group G 3rd Place vs Group H 3rd Place</td></tr>
+  </table>
+
+   <h3>Semi Finals (Plate)</h3>
+  <table class="table3">
+    <tr><td>1. Team 1 vs Team 2 </td></tr>
+    <tr><td>2.  Team 3 vs Team 4 </td></tr>
+  </table>
+
+  <table class="table4">
+    <tr><td> Grand Finale of (Cup & Plate) format will be between Winner of Semi-Final 1 vs Winner of Semi-Final 2 </td></tr>
+  </table>
+ </div>
+</body>
+</html>
 
 
 
@@ -305,8 +457,9 @@
   </main>
 
  
-  <footer id="footer" class="footer dark-background">
-   <div class="container footer-top">
+<footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
@@ -329,32 +482,32 @@
   <ul>
     <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
     <li><i class="bi bi-chevron-right"></i> <a href="#">About the Tournament</a></li>
-    <li><i class="bi bi-chevron-right"></i> <a href="#">Match Fixtures</a></li>
+    <li><i class="bi bi-chevron-right"></i> <a href="#">Match Officials</a></li>
     <li><i class="bi bi-chevron-right"></i> <a href="#">Rules & Regulations</a></li>
     <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy Policy</a></li>
   </ul>
 </div>
 
 <div class="col-lg-2 col-md-3 footer-links">
-  <h4>What We Offer</h4>
+  <h4>Features</h4>
   <ul>
-    <li><i class="bi bi-chevron-right"></i> <a href="#">Team Registration</a></li>
+    <li><i class="bi bi-chevron-right"></i> <a href="#">Team List</a></li>
     <li><i class="bi bi-chevron-right"></i> <a href="#">Live Scores</a></li>
-    <li><i class="bi bi-chevron-right"></i> <a href="#">Player Stats</a></li>
-    <li><i class="bi bi-chevron-right"></i> <a href="#">Media & Gallery</a></li>
-    <li><i class="bi bi-chevron-right"></i> <a href="#">Volunteer Program</a></li>
+    <li><i class="bi bi-chevron-right"></i> <a href="#">Players List</a></li>
+    <li><i class="bi bi-chevron-right"></i> <a href="#">Match Results</a></li>
+    <li><i class="bi bi-chevron-right"></i> <a href="#">Fixtures</a></li>
   </ul>
 </div>
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Contact Us</h4>
-<p>Reach out to us for inquiries, support, or to learn more about our products and services. We're here to help!</p>
+<p>Have questions about the tournament, team registration, or sponsorship opportunities? We're here to help!Reach out to us for inquiries, support, or to learn more about the upcoming fixtures, rules, and event details.</p>
 
           <form action="forms/newsletter.php" method="post" class="php-email-form">
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Submit"></div>
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
           </form>
         </div>
 
