@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title></title>
+  <title>Gallery for IUB Football Club</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -30,7 +30,64 @@
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/style2.css" rel="stylesheet">
    <link href="assets/css/style3.css" rel="stylesheet">
+ <style>
+     .gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust minmax as needed */
+  gap: 10px; /* Space between images */
+  padding: 10px;
+  max-width: 1300px; /* Max width of the gallery */
+  margin: 20px auto; /* Center the gallery */
+  background:  transparent; /* Make the background transparent */
+ }
 
+        .gallery-item {
+            overflow: hidden; /* Ensures images don't overflow their container */
+            position: relative;
+            padding-bottom: 75%; /* This creates a 4:3 aspect ratio. Adjust for different ratios */
+                                /* For 1:1, use 100%; for 16:9, use 56.25% */
+        }
+
+        .gallery-item img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* This is key! It crops the image to fit the container without distortion */
+            display: block;
+             transition: transform 0.3s ease-in-out;
+        }
+         .gallery-item img:hover {
+            transform: scale(1.05); /* Slightly zoom in on hover */
+        }
+
+
+        /* Basic responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            .gallery-container {
+                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+                gap: 8px;
+                padding: 8px;
+                margin: 10px auto;
+            }
+            .gallery-item {
+                padding-bottom: 75%; /* Keep aspect ratio consistent */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery-container {
+                grid-template-columns: 1fr; 
+                gap: 5px;
+                padding: 5px;
+                margin: 5px auto;
+            }
+            .gallery-item {
+                padding-bottom: 60%; /* Slightly adjust for single column view if desired */
+            }
+          }
+  </style>
 </head>
 <body class="index-page">
 
@@ -82,21 +139,103 @@
 
   <main class="main">
 
-
-
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Registered Teams</h2>
-        <p>Meet the players</p>
+        <h2>IIDFFS</h2>
+        <p>Photos</p>
       </div><!-- End Section Title -->
      
 
-  </main>
 
- 
+   <div class="gallery-container">
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/RAN-1.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/RAN-2.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/RAN-3.JPG" alt="">
+        </div>
+          <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/RAN-4.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/RAN-5.JPG" alt="">
+        </div>
+         <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/RAN-6.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/RAN-7.JPG" alt="">
+        </div>
+         <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/RAN-8.JPG" alt="">
+        </div>
+      </div>
+
+<!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>IIDFF First Season</h2>
+        <p>Team Photos</p>
+      </div><!-- End Section Title -->
+     
+      <div class="gallery-container">
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 1.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 2.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+           <img src="assets/img/Gallery/Team 3.JPG" alt="">
+        </div>
+          <div class="gallery-item" data-aos="fade-up">
+          <img src="assets/img/Gallery/Team 4.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 5.JPG" alt="">
+        </div>
+         <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 6.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+           <img src="assets/img/Gallery/Team 7.JPG" alt="">
+        </div>
+         <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 8.JPG" alt="">
+        </div>
+         <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 9.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+           <img src="assets/img/Gallery/Team 10.JPG" alt="">
+        </div>
+         <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 11.JPG" alt="">
+        </div>
+         <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 12.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 13.JPG" alt="">
+        </div>
+         <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 14.JPG" alt="">
+        </div>
+        <div class="gallery-item" data-aos="fade-up">
+            <img src="assets/img/Gallery/Team 15.JPG" alt="">
+        </div>
+      </div>
+
+
+  </main>
 <footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
